@@ -1,3 +1,6 @@
+
+# This version is updated on November 2022
+
 ## 1.0 Update Overview
 
 WALKOFF 1.0 is intended to present a more robust and scalable implementation of Apps and Workers. 
