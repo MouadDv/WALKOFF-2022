@@ -1,40 +1,74 @@
-PyJWT==v1.7.1
-Flask >= 0.10.0
-Flask_SQLAlchemy == 2.1
-flask_jwt_extended == 3.4.0
-sqlalchemy == 1.1.0
-sqlalchemy-utils == 0.32.0
-APscheduler >= 3.0.0
-gevent >= 1.2
-greenlet
+alembic==1.4.3
+APScheduler==3.9.1.post1
+asteval==0.9.28
+async-timeout==4.0.2
+attrs==22.1.0
+backports.zoneinfo==0.2.1
+blinker==1.5
+certifi==2022.9.24
+cffi==1.15.1
+charset-normalizer==2.1.1
+click==7.1.2
+clickclick==20.10.2
+connexion==2.7.0
+cryptography==38.0.3
+dill==0.3.6
+enum34==1.1.10
+Flask==1.1.4
+Flask-JWT-Extended==3.4.0
+Flask-SQLAlchemy==2.1
+flask-swagger-ui==4.11.1
+fluent-logger==0.10.0
+gevent==22.10.2
+gitdb==4.0.9
+GitPython==3.1.29
+greenlet==2.0.1
 gunicorn==19.9.0
-connexion >= 2.0
-pyyaml >= 3.0
-passlib >= 1.7.0
-blinker >= 1.4
-enum34
-futures; python_version < "3"
-semver
-jsonschema == 3.0.0
-six >= 1.10.0
-marshmallow == 3.0.0rc2
-marshmallow-sqlalchemy == 0.13.0
-marshmallow-enum >= 1.4.1
-pynacl
-alembic
-healthcheck
-markupsafe==2.0.1
-psycopg2-binary
-click
-pyopenssl
-gitpython
-dill
-redis >= 3.0
-fluent-logger
-werkzeug == 0.15.0
-requests
-swagger_spec_validator
-flask-swagger-ui
-jsonpatch
-asteval
-pycrypto
+healthcheck==1.3.3
+idna==3.4
+importlib-metadata==5.0.0
+inflection==0.5.1
+itsdangerous==1.1.0
+Jinja2==2.11.3
+jsonpatch==1.32
+jsonpointer==2.3
+jsonschema==3.0.0
+Mako==1.2.4
+MarkupSafe==2.0.1
+marshmallow==3.0.0rc2
+marshmallow-enum==1.5.1
+marshmallow-sqlalchemy==0.13.0
+msgpack==1.0.4
+openapi-schema-validator==0.2.3
+openapi-spec-validator==0.3.1
+packaging==21.3
+passlib==1.7.4
+psycopg2-binary==2.9.5
+pycparser==2.21
+pycrypto==2.6.1
+PyJWT==1.7.1
+PyNaCl==1.5.0
+pyOpenSSL==22.1.0
+pyparsing==3.0.9
+pyrsistent==0.19.2
+python-dateutil==2.8.2
+python-editor==1.0.4
+pytz==2022.6
+pytz-deprecation-shim==0.1.0.post0
+PyYAML==6.0
+redis==4.3.5
+requests==2.28.1
+semver==2.13.0
+six==1.16.0
+smmap==5.0.0
+SQLAlchemy==1.1.0
+SQLAlchemy-Utils==0.32.0
+swagger-spec-validator==3.0.3
+typing-extensions==4.4.0
+tzdata==2022.6
+tzlocal==4.2
+urllib3==1.26.12
+Werkzeug==0.15.0
+zipp==3.10.0
+zope.event==4.5.0
+zope.interface==5.5.2
