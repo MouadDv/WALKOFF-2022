@@ -34,5 +34,5 @@ docker-compose up -d --build
 # Follow logs for services (append service names from the docker-compose.yml to follow specific services):
 docker-compose logs -f api_gateway
 
-# UI is viewable at http://localhost:8080
+# UI is viewable at http://localhost:8080 with admin:admin as credentials
 ```
