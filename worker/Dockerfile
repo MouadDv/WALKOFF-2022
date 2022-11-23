@@ -7,6 +7,7 @@ RUN mkdir /install
 WORKDIR /install
 
 COPY ./worker/requirements.txt /requirements.txt
+RUN pip install --upgrade pip
 
 RUN git clone "https://github.com/aio-libs/aioredis.git"
 RUN pip install --prefix="/install" ./aioredis

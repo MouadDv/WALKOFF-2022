@@ -1,8 +1,15 @@
+pydantic == 0.32.2
 #aiodns
-aiodocker
-aiohttp
+aiodocker == 0.14.0
+aiohttp == 3.7.0
+aioredis == 1.3.1
+redis
 #cchardet
 docker
 docker-compose
-pyyaml
-sqlalchemy
+pyyamlcryptography
+sphinxcontrib-openapi
+m2r
+minio == 6.0.2
+uvicorn == 0.11.5
+fastapi == 0.60.2
