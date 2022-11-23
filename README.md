@@ -1,21 +1,8 @@
 
 # This version is updated on November 2022
 
-## 1.0 Update Overview
+## Generally freezing your dependencies version isn't a great idea. But due to uncontinued developers support, this project was broken due to all the deprecated stuff. This project has old dependencies version wich may lead to security issues, Please use with cotion.
 
-WALKOFF 1.0 is intended to present a more robust and scalable implementation of Apps and Workers. 
-Due to the scale of the changes, this should be considered an alpha version of WALKOFF 1.0, and is for testing and 
-evaluation only. **There is much work to be done, and it is not stable, feature-complete or production-ready.**
-
-In the coming weeks, we will be continually releasing bugfixes, documentation, and tests to bring this to a stable 
-state and begin adding non-core functionality. See [our roadmap](ROADMAP.md) for more details. You can also follow [the changelog](CHANGELOG.md) to keep up with the latest changes.
-
-If you do test this out, please submit issues here when you encounter any bugs or have any suggestions so we can 
-continue to improve the WALKOFF platform. 
-
-For app development instructions, see [the app SDK](app_sdk/README.md).
-
-If you would like to view version 0.9.4, see [the master branch](https://github.com/nsacyber/WALKOFF/tree/master). 
 
 ## Requirements
 
