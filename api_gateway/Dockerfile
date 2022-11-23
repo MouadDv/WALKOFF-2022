@@ -2,11 +2,13 @@ FROM python@sha256:8fe3b17b88644d379ca7e0c724a82a595c8cfbe2b37e1d6d33e7bb5c435a8
 
 FROM base as builder
 RUN apk --no-cache add --update alpine-sdk libffi libffi-dev postgresql-dev musl-dev
+RUN apk --no-cache add binutils musl-dev
 
 RUN mkdir /install
 WORKDIR /install
 
 COPY ./api_gateway/requirements.txt /requirements.txt
+RUN pip install --upgrade pip
 RUN pip install --prefix="/install" -r /requirements.txt
 
 FROM base
